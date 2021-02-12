@@ -1,0 +1,376 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10752,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1914,
+      "max": [
+        0.995196282863617,
+        1.46193516254425,
+        0.995196282863617
+      ],
+      "min": [
+        -0.995196282863617,
+        -1.45322597026825,
+        -0.995196282863617
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1914,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1914,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 23808,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 4171,
+      "max": [
+        1.03387236595154,
+        -1.44805204868317,
+        1.03387236595154
+      ],
+      "min": [
+        -1.03387236595154,
+        -1.54892933368683,
+        -1.03387236595154
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 4171,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 4171,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 76032,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 12737,
+      "max": [
+        1.02928245067596,
+        1.56008207798004,
+        1.02942359447479
+      ],
+      "min": [
+        -1.02942359447479,
+        1.46021735668182,
+        -1.02942395210266
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 12737,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 12737,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 43008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22968,
+      "byteOffset": 43008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22968,
+      "byteOffset": 65976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15312,
+      "byteOffset": 88944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 95232,
+      "byteOffset": 104256,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50052,
+      "byteOffset": 199488,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50052,
+      "byteOffset": 249540,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33368,
+      "byteOffset": 299592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 304128,
+      "byteOffset": 332960,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 152844,
+      "byteOffset": 637088,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 152844,
+      "byteOffset": 789932,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101896,
+      "byteOffset": 942776,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1044672,
+      "uri": "can.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "lambert1_baseColor.png"
+    },
+    {
+      "uri": "lambert1_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "lambert1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "lambert1",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface5",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "polySurface6",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "polySurface2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2,
+        7
+      ],
+      "name": "can2:ZBrushPolyMesh3D",
+      "translation": [
+        0.0,
+        1.57377350330353,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "polySurface1"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "polySurface5",
+      "rotation": [
+        0.0,
+        0.0649083480238914,
+        0.0,
+        0.997891247272491
+      ],
+      "translation": [
+        0.0,
+        -1.57894742488861,
+        0.0
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface5"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "polySurface6",
+      "translation": [
+        0.0,
+        -1.57894742488861,
+        0.0
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "polySurface6"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "polySurface2",
+      "translation": [
+        0.0,
+        -1.57894742488861,
+        0.0
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "polySurface2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
